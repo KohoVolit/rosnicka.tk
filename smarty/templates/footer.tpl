@@ -9,6 +9,6 @@
       <li>·</li>
       <li><a href="http://kohovolit.eu">KohoVolit.eu</a></li>
       <li>·</li>
-      <li><a href="https://github.com/KohoVolit/rosnicka/">GitHub</a></li>
+      <li><a href="https://github.com/KohoVolit/rosnicka.tk/">GitHub</a></li>
     </ul>
 </footer>
