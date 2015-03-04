@@ -3,87 +3,87 @@
  texts
 */
 $text = [
-  'lang' => 'cs',
-  'locale' => 'cs_CZ.utf8',
+  'lang' => 'en',
+  'locale' => 'en_US.utf8',
 
   'author' => 'KohoVolit.eu, Zelený kruh',
-  'description' => 'Poslanecká rosnička',
-  'keywords' => 'hlasování, sněmovna, poslanecká rosnička',
+  'description' => 'Parliamentary Tree-Frog',
+  'keywords' => 'parliament, voting, vote event', 'Czech Republic', 'Chamber of Deputies',
   //fb
-  'og:image' => 'http://rosnicka.zelenykruh.cz/image/treefrog.jpg',
-  'og:title' => 'Poslanecká rosnička',
-  'og:url' => 'http://rosnicka.zelenykruh.cz',
-  'og:site_name' => 'Poslanecká rosnička',
+  'og:image' => 'http://rosnicka.tk/image/treefrog.jpg',
+  'og:title' => 'Parliamentary Tree-Frog',
+  'og:url' => 'http://rosnicka.tk',
+  'og:site_name' => 'Parliamentary Tree-Frog',
   'author_link' => 'http://kohovolit.eu',
   
   'google_analytics_code' => 'UA-57002774-1',
 
-  'terms' => 'Období',
-  'all_terms' => 'Všechna volební období',
-  'term' => 'Období',
+  'terms' => 'Terms',
+  'all_terms' => 'All terms',
+  'term' => 'Term',
   
-  'parties' => 'Strany',
-  'representatives' => 'Poslanci',
-  'vote_events' => 'Hlasování',
+  'parties' => 'Parties',
+  'representatives' => 'Representatives',
+  'vote_events' => 'Vote events',
   
-  'widgets' => 'Widgety',
-  'about' => 'O projektu',
-  'methodology' => 'Metodika',
+  'widgets' => 'Widgets',
+  'about' => 'About',
+  'methodology' => 'Methodology',
   
-  'select_people_parties' => 'Vybrat strany, lidi ...',
+  'select_people_parties' => 'Select representatives, parties...',
 
-  'party' => 'Strana',
+  'party' => 'Party',
   
-  'voted' => 'Hlasoval/a',
-  'voted_male' => 'Hlasoval',
-  'voted_female' => 'Hlasovala',
-  'voted_neutral' => 'Hlasování',
-  'recommends' => 'doporučuje',
-  'weight' => 'Váha hlasování',
-  'vote-events' => 'Hlasování',
+  'voted' => 'Voted',
+  'voted_male' => 'Voted',
+  'voted_female' => 'Voted',
+  'voted_neutral' => 'Voted',
+  'recommends' => 'Recommendation',
+  'weight' => 'Vote event weight',
+  'vote-events' => 'Vote events',
   
   'pro_issue' => [
-    '1' => 'pro návrh',
-    '-1' => 'proti návrhu'
+    '1' => 'Yes',
+    '-1' => 'No'
   ],
   
   'vote_options' => [
-    'yes' => 'ano',
-    'no' => 'ne',
-    'abstain' => 'zdržel/a se',
-    'abstain_male' => 'zdržel se',
-    'abstain_female' => 'zdržela se',
-    'absent' => 'nepřítomen/-na',
-    'absent_male' => 'nepřítomen',
-    'absent_female' => 'nepřítomna',
-    'not voting' => 'nehlasoval/a'
+    'yes' => 'Yes',
+    'no' => 'No',
+    'abstain' => 'Abstained',
+    'abstain_male' => 'Abstained',
+    'abstain_female' => 'Abstained',
+    'absent' => 'Absent',
+    'absent_male' => 'Absent',
+    'absent_female' => 'Absent',
+    'not voting' => 'Not voting'
   ],
   
-  'legend' => 'Legenda',
-  'legend_ok' => 'Hlasovali v souladu',
-  'legend_ko' => 'Hlasovali opačně',
-  'vote_event' => 'Hlasování',
+  'legend' => 'Legend',
+  'legend_ok' => 'Voted in line with recommendation',
+  'legend_ko' => 'Voted contrary to recommendation',
+  'vote_event' => 'Vote event',
   
-  'year' => 'Rok',
+  'year' => 'Year',
   
-  'tags' => 'Kategorie',
+  'tags' => 'Tags',
   
-  'vote-event_unknown_identifier_warning' => 'Neznámé hlasování',
-  'no_person_warning' => 'Není vybrán žádný poslanec',
-  'person_unknown_identifier_warning' => 'Neznámý poslanec',
-  'person_no_vote-events_warning' => 'Daný poslanec nemá v zadaném období žádné hlasování',
-  'no_party_warning' => 'Není vybrána žádná strana',
-  'party_no_vote-events_warning' => 'Daná strana nemá v zadaném období žádné hlasování',
+  'vote-event_unknown_identifier_warning' => 'Vote event unknown',
+  'no_person_warning' => 'No representative selected',
+  'person_unknown_identifier_warning' => 'Representative unknown',
+  'person_no_vote-events_warning' => 'The selected representative did not vote in the selected term',
+  'no_party_warning' => 'No party selected',
+  'party_no_vote-events_warning' => 'The selected party did not vote in the selected term',
   
-  'name' => 'Jméno',
-  'ok?' => 'V souladu?',
-  'ok' => 'V souladu',
-  'ko' => 'Opačně',
-  'neutral' => 'Neutrálně',
+  'name' => 'Name',
+  'ok?' => 'In line with recommendation?',
+  'ok' => 'In line with recommendation',
+  'ko' => 'Contrary to recommendation',
+  'neutral' => 'Neutral',
   'ok_options' => [
-    1 => 'V souladu',
-    -1 => 'Opačně',
-    0 =>'Neutrálně'
+    1 => 'In line with recommendation',
+    -1 => 'Contrary to recommendation',
+    0 =>'Neutral'
    ]
 ];
 
