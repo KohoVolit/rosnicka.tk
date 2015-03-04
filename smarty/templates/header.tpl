@@ -1,4 +1,4 @@
-<div class="navbar navbar-default">
+<div class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
       <a href="../" class="navbar-brand">{$header['name']}</a>
@@ -30,7 +30,7 @@
       
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/widgets/">{$text['widgets']}</a></li>
-        <li><a href="/methodology/">{$text['methodology']}</a></li>
+        <li><a href="/about/">{$text['about']}</a></li>
       </ul>
     </div>
   </div>
